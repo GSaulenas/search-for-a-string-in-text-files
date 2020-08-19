@@ -10,3 +10,8 @@ search_for - a string that will be searching for
 
 If the given string will be found in the file, a list with the lines where the occurence is, will be printed  
 ![Search script](image.png)
+
+If you get an error **ImportError: No module named pathlib**, use python3 instead of python:
+```
+python3 search_for_a_string.py [-h] path search_for
+```
